@@ -1,0 +1,145 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etMateria"
+        android:layout_width="359dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:hint="Materia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="358dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:hint="Nombre Completo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMatricula" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="358dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:background="#C36565"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCarrera" />
+
+    <EditText
+        android:id="@+id/etParcial2"
+        android:layout_width="357dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:hint="Parcial 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etParcial1" />
+
+    <Button
+        android:id="@+id/btnGuardarCalificaciones"
+        android:layout_width="357dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:background="#634646"
+        android:text="Guardar Calificaciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etParcial3" />
+
+    <EditText
+        android:id="@+id/etParcial1"
+        android:layout_width="356dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:hint="Parcial 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuscar" />
+
+    <EditText
+        android:id="@+id/etBuscarMatricula"
+        android:layout_width="357dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:hint="Buscar por Matrícula"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGuardar" />
+
+    <EditText
+        android:id="@+id/etMatricula"
+        android:layout_width="357dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:hint="Matrícula"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="357dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:background="#A36B6B"
+        android:text="Buscar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBuscarMatricula" />
+
+    <EditText
+        android:id="@+id/etPromedio"
+        android:layout_width="356dp"
+        android:layout_height="42dp"
+        android:focusable="false"
+        android:hint="Promedio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGuardarCalificaciones"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <EditText
+        android:id="@+id/etParcial3"
+        android:layout_width="357dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:hint="Parcial 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etParcial2" />
+
+    <EditText
+        android:id="@+id/etCarrera"
+        android:layout_width="358dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:hint="Carrera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMateria" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
